@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.fmsoft.lnx.gmud.simple"
+    android:versionCode="6"
+    android:versionName="0.4.1" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="cn.fmsoft.lnx.gmud.simple.GmudApp"
+        android:icon="@drawable/tmp_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="GmudActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:multiprocess="false"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SettingActivity" android:exported="false" android:launchMode="singleTask">
+        </activity>
+        <service android:name="GuardServer" android:exported="false"></service>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest>

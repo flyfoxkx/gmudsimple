@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/group_main"
+        android:checkableBehavior="single" >
+
+        <!-- <item android:id="@+id/item_hook" android:title="Hook"></item> -->
+
+        <item
+            android:id="@+id/item_exit"
+            android:title="@string/menu_exit">
+        </item>
+        
+        <item
+            android:id="@+id/item_design"
+            android:title="@string/menu_design" >
+        </item>
+
+        <item
+            android:id="@+id/item_setting"
+            android:title="@string/menu_setting">
+<!--             <menu> -->
+<!--                 <item -->
+<!--                     android:id="@+id/item_hidekey" -->
+<!--                     android:checkable="true" -->
+<!--                     android:checked="false" -->
+<!--                     android:title="Hide SoftKey"> -->
+<!--                 </item> -->
+<!--                 <item -->
+<!--                     android:id="@+id/item_lockscreen" -->
+<!--                     android:checkable="true" -->
+<!--                     android:checked="false" -->
+<!--                     android:title="Lock Screen"> -->
+<!--                 </item> -->
+<!--                 <item -->
+<!--                     android:id="@+id/item_backup" -->
+<!--                     android:title="Backup"/> -->
+<!--                 <item -->
+<!--                     android:id="@+id/item_restore" -->
+<!--                     android:title="Restore"/> -->
+<!--             </menu> -->
+        </item>
+        <item
+            android:id="@+id/item_about"
+            android:title="@string/menu_about">
+        </item>
+    </group>
+    <group android:id="@+id/group_design">
+        <item android:id="@+id/item_design_apply" android:title="@string/menu_apply"></item>
+        <item android:id="@+id/item_design_cancel" android:title="@string/menu_cancel"></item>
+        <item android:id="@+id/item_design_reset" android:title="@string/menu_reset"></item>
+    </group>
+
+</menu>

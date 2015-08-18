@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Gmud!</string>
+    <string name="app_name">英雄坛说</string>
+    <string name="title">英雄坛说黄金版</string>
+    <string name="title_interface">界面</string>
+    <string name="key_hide_softkey">key_hide_softkey</string>
+    <string name="title_hide_soft">隐藏虚拟键盘</string>
+    <string name="key_lock_screen">key_lock_screen</string>
+    <string name="title_lock_screen">锁定屏幕方向</string>
+    <string name="title_assist">辅助</string>
+    <string name="title_show_time">显示时间</string>
+    <string name="key_show_time">key_show_time</string>
+    <string name="summary_show_time">在标题中显示游戏时间和年龄</string>
+    <string name="title_image_smooth">平滑图像</string>
+    <string name="key_image_smooth">key_image_smooth</string>
+    <string name="summary_image_smooth">如果不习惯原版的点阵图，可通过程序平滑图像，会有模糊感</string>
+    <string name="title_enable_guard">允许后台挂机</string>
+    <string name="key_enable_guard">key_enable_guard</string>
+    <string name="summary_enable_guard">允许创建后台服务来挂机</string>
+    <string name="title_store">存档</string>
+    <string name="key_backup">key_backup</string>
+    <string name="title_backup">备份存档</string>
+    <string name="summary_backup">将存档导出到 SDCard 中。</string>
+    <string name="summary_backup_last">最近一次备份时间：%s</string>
+    <string name="key_restore">key_restore</string>
+    <string name="title_restore">还原存档</string>
+    <string name="summary_restore">没有备份。</string>
+    <string name="summary_resotre_last">备份文件：%s</string>
+    <string name="tip_need_save">必须先存档才能备份！</string>
+    <string name="tip_backup_overwrite">用最新存档覆盖备份文件？</string>
+    <string name="tip_backup_success">备份成功！</string>
+    <string name="tip_backup_failed">备份失败！</string>
+    <string name="tip_restore_overwrite">还原备份数据将覆盖当前存档。是否继续？</string>
+    <string name="tip_restore_success">还原成功，准备重启游戏……</string>
+    <string name="tip_restore_failed">还原失败，请检查备份文件是否正确！</string>
+    <string name="key_custom_config">key_custom_config</string>
+    <string name="title_custom_config">自定义界面</string>
+    <string name="summary_custom_config">定义界面元素风格、大小、位置。</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_design">设计</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_apply">应用</string>
+    <string name="menu_cancel">取消</string>
+    <string name="menu_reset">恢复默认</string>
+
+    <!-- 虚拟按键自定义设计 -->
+    <string name="custom_key_dialog">Custom Key</string>
+    <string name="custom_key_summary_apply">『双击』空白区应用设计！</string>
+    <string name="custom_key_hithot">热点</string>
+    <string name="custom_key_summary_hithot">“虚拟按键”的响应区域</string>
+    <string name="custom_key_bg">背板</string>
+    <string name="custom_key_summary_bg">“虚拟按键”的背板</string>
+    <string name="custom_key_title">标题</string>
+    <string name="custom_key_summary_title">标题显示区域</string>
+
+</resources>

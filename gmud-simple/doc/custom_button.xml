@@ -1,0 +1,71 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="458" measuredH="404" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="8" y="4" w="450" h="400" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>21</bottomheight>
+        <dragger>true</dragger>
+        <text>Custom%20Button</text>
+        <topheight>26</topheight>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="23" y="41" w="-1" h="-1" measuredW="58" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Focus</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="168" y="41" w="-1" h="-1" measuredW="91" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Background</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="365" y="41" w="-1" h="-1" measuredW="49" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>selected</state>
+        <text>Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="54" y="129" w="319" h="194" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>roundedDotted</borderStyle>
+        <color>13421772</color>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="88" y="153" w="262" h="146" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <italic>true</italic>
+        <size>20</size>
+        <text>background</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Icon" x="195" y="202" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6989903</color>
+        <icon>ForwardIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Arrow" x="220" y="231" w="27" h="28" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="112" y="344" w="-1" h="-1" measuredW="170" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>false</bold>
+        <color>40463</color>
+        <italic>true</italic>
+        <size>18</size>
+        <state>up</state>
+        <text>Double%20Click%20to%20Apply</text>
+        <textOrientation>right</textOrientation>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

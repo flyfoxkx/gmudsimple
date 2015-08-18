@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="soft_key"><item>返回</item>
+<item>确认</item>
+<item>下</item>
+<item>左</item>
+<item>上</item>
+<item>右</item>
+<item>连左</item>
+<item>连右</item>
+<item>飞</item>
+</string-array>
+</resources>

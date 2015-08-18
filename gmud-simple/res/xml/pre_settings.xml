@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:persistent="true"
+        android:title="@string/title_interface" >
+        <CheckBoxPreference
+            android:key="@string/key_hide_softkey"
+            android:title="@string/title_hide_soft" />
+        <CheckBoxPreference
+            android:key="@string/key_lock_screen"
+            android:title="@string/title_lock_screen" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_store" >
+        <Preference
+            android:key="@string/key_backup"
+            android:summary="@string/summary_backup"
+            android:title="@string/title_backup" />
+        <Preference
+            android:enabled="false"
+            android:key="@string/key_restore"
+            android:summary="@string/summary_restore"
+            android:title="@string/title_restore" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_assist" >
+        <CheckBoxPreference
+            android:key="@string/key_show_time"
+            android:summary="@string/summary_show_time"
+            android:title="@string/title_show_time" />
+        <CheckBoxPreference
+            android:key="@string/key_image_smooth"
+            android:summary="@string/summary_image_smooth"
+            android:title="@string/title_image_smooth" />
+        <CheckBoxPreference
+            android:key="@string/key_enable_guard"
+            android:summary="@string/summary_enable_guard"
+            android:title="@string/title_enable_guard" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
